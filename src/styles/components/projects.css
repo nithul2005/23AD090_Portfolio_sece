@@ -1,0 +1,28 @@
+.projects {
+  padding: 2rem;
+  background-color: #ecf0f1;
+  text-align: center;
+}
+
+.project-cards {
+  display: flex;
+  gap: 2rem;
+  justify-content: flex-start;
+  overflow-x: auto; /* Horizontal scroll */
+  padding: 1rem;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  min-width: 250px; /* Ensures the cards don't shrink */
+  text-align: center;
+}
+
+.card:hover {
+  transform: scale(1.05); /* Slight pop effect */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}

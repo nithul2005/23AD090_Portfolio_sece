@@ -1,0 +1,22 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f4f4f4;
+  color: #333;
+  font-size: 18px; /* Increased font size for better visibility */
+}
+
+h1, h2, h3, p {
+  font-size: 1.2em; /* Make headings slightly bigger */
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button, .btn-primary {
+  font-size: 1.1em; /* Increase button size */
+}
